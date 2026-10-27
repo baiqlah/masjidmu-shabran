@@ -937,8 +937,8 @@
         // 4. LEAFLET MAP INITIALIZATION (ESRI SATELLITE)
         // ==========================================
         function initLeafletMap() {
-            // Default center: Pondok Shabran UMS (-7.55832, 110.76921)
-            const shabranCoords = [-7.55832, 110.76921];
+            // Default center: Pondok Shabran UMS (-7.57191, 110.76485)
+            const shabranCoords = [-7.57191, 110.76485];
 
             map = L.map('map', {
                 center: shabranCoords,
@@ -1001,7 +1001,7 @@
 
         function centerShabran() {
             if (map) {
-                map.flyTo([-7.55832, 110.76921], 16, { animate: true, duration: 1.5 });
+                map.flyTo([-7.57191, 110.76485], 16, { animate: true, duration: 1.5 });
                 showToast("Menampilkan Pondok Shabran UMS");
             }
         }
