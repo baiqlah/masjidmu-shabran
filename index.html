@@ -207,7 +207,7 @@
     <div class="print-header hidden">
         <h1 style="font-size: 18pt; font-weight: bold; margin: 0; color: #2F3185;">LAPORAN PENDATAAN MASJID MUHAMMADIYAH</h1>
         <h2 style="font-size: 14pt; margin: 4px 0;">KECAMATAN KARTASURA - KABUPATEN SUKOHARJO</h2>
-        <p style="font-size: 10pt; color: #555; margin: 0;">Program Pengabdian Pondok Hajjah Nuriyah Shabran UMS 2026 | Total: 30 Masjid</p>
+        <p style="font-size: 10pt; color: #555; margin: 0;">Program Pengabdian Pondok Hajjah Nuriyah n UMS 2026 | Total: 30 Masjid</p>
     </div>
 
     <!-- MAIN CONTENT VIEW CONTAINER -->
@@ -224,9 +224,9 @@
                     <i class="fa-solid fa-layer-group text-brand-teal"></i>
                     <span id="layer-btn-text">Peta Satelit ESRI</span>
                 </button>
-                <button onclick="centerShabran()" class="bg-white/90 hover:bg-white text-brand-navy shadow-lg font-semibold text-xs px-3 py-2 rounded-xl border border-slate-200 backdrop-blur-md flex items-center gap-2 active:scale-95 transition-all">
+                <button onclick="centern()" class="bg-white/90 hover:bg-white text-brand-navy shadow-lg font-semibold text-xs px-3 py-2 rounded-xl border border-slate-200 backdrop-blur-md flex items-center gap-2 active:scale-95 transition-all">
                     <i class="fa-solid fa-location-crosshairs text-brand-gold"></i>
-                    <span>Ke Pondok Shabran</span>
+                    <span>Ke Pondok n</span>
                 </button>
             </div>
         </section>
@@ -1001,7 +1001,7 @@
 
         function centerShabran() {
             if (map) {
-                map.flyTo([-7.57191, 110.76485], 16, { animate: true, duration: 1.5 });
+                map.flyTo([-7.56582008828754, 110.77658427053589], 16, { animate: true, duration: 1.5 });
                 showToast("Menampilkan Pondok Shabran UMS");
             }
         }
